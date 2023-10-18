@@ -1,0 +1,111 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: beige;
+  color:black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+  width:100%;
+  padding:100px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:50px;
+}
+.logo{
+  width:100%;
+  text-align: start;
+  text-decoration:underline;
+  text-shadow: 2px 2px 2px lightgray;
+}
+
+
+.detail{
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+}
+.heading{
+  border-bottom: 2px solid black;
+}
+.form{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap:10px;
+}
+.form button{
+  width:400px;
+  padding:5px;
+  font-weight: 600;
+  background-color: beige;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px black;
+}
+.form input{
+  width:600px;
+  text-align: center;
+  font-weight: 600;
+  padding:7px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px black;
+  outline:none;
+  font-weight: 600;
+}
+.form textarea{
+  width:600px;
+  height:100px;
+  text-align: center;
+  box-shadow: 3px 3px 3px black;
+  border:2px solid black;
+  border-radius: 5px;
+  outline:none;
+  font-weight: 600;
+}
+
+.info{
+  display:flex;
+  flex-direction: column;
+  gap:15px;
+}
+.info h1{
+  border-bottom: 2px solid black;
+}
+.info-block{
+  width:600px;
+  padding:20px;
+  text-align: center;
+  background-color: white;
+  border:2px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px black;
+  font-weight: 600;
+}
+.withdrawn{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+}
+.withdrawn h2{
+  border-bottom: 2px solid black;
+}
+.withdrawn button{
+  width:400px;
+  padding:5px;
+  background-color: beige;
+  border:2px solid black;
+  outline:none;
+  box-shadow: 2px 2px 2px black;
+  font-weight: 600;
+}
+.withdrawn span{
+  font-weight: 900;
+}
